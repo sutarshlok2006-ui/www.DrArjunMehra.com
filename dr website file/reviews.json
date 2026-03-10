@@ -1,0 +1,60 @@
+{
+  "reviews": [
+    {
+      "name": "Rajesh Sharma",
+      "rating": 5,
+      "treatment": "Root Canal",
+      "date": "15 Jan 2024",
+      "review": "Dr. Arjun ne mera root canal kiya, bilkul pain nahi hua. Bahut professional clinic hai. Staff bhi bahut friendly hai."
+    },
+    {
+      "name": "Priya Gupta",
+      "rating": 5,
+      "treatment": "Dental Implant",
+      "date": "10 Jan 2024",
+      "review": "Implant karwaya, 2 saal ho gaye bilkul natural tooth jaisa hai. Thank you team! Highly recommended."
+    },
+    {
+      "name": "Amit Kumar",
+      "rating": 5,
+      "treatment": "Teeth Whitening",
+      "date": "5 Jan 2024",
+      "review": "Teeth whitening karwaya, bahut accha result aaya. 1 sitting mein hi 8 shades brighter ho gaye."
+    },
+    {
+      "name": "Sneha Patel",
+      "rating": 5,
+      "treatment": "Scaling",
+      "date": "2 Jan 2024",
+      "review": "Clinic bahut clean hai. Dr. Arjun ne scaling kiya, ab gums healthy feel ho rahi hai."
+    },
+    {
+      "name": "Rahul Verma",
+      "rating": 5,
+      "treatment": "Root Canal",
+      "date": "28 Dec 2023",
+      "review": "Best dentist in Chembur. Painless treatment aur reasonable prices."
+    },
+    {
+      "name": "Neha Kapoor",
+      "rating": 5,
+      "treatment": "Kids Dentistry",
+      "date": "20 Dec 2023",
+      "review": "Mere bete ka treatment karwaya, bacche ko bilkul dard nahi hua. Dr. Arjun bachhon ke liye bahut acche hain."
+    },
+    {
+      "name": "Neha",
+      "rating": 4,
+      "treatment": "Kids Dentistry",
+      "date": "20 Dec 2023",
+      "review": "Mere bete ka treatment karwaya, bacche ko bilkul dard nahi hua. Dr. Arjun bachhon ke liye bahut acche hain."
+    },
+    {
+      "name": "Shlok",
+      "rating": 4,
+      "treatment": "Kids Dentistry",
+      "date": "20 Dec 2023",
+      "review": "Mere bete ka treatment karwaya, bacche ko bilkul dard nahi hua. Dr. Arjun bachhon ke liye bahut acche hain."
+    }
+  ]
+}
