@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Platform Admin",
+      "email": "admin@clinic.com",
+      "password": "a1b2c3d4e5f60708a9b0c1d2e3f40506:ef3004c7d2a4230d74af43b5af096c9e765640deb67d3726f1a6b96f36896a485876393a49814acdc9d070e575c3fc19fd0a29c79ebca40e97e6696a196edfee",
+      "role": "admin",
+      "phone": "+91 9000000001"
+    },
+    {
+      "id": "u-doctor",
+      "name": "Dr. Arjun Mehra",
+      "email": "doctor@clinic.com",
+      "password": "a1b2c3d4e5f60708a9b0c1d2e3f40506:ef3004c7d2a4230d74af43b5af096c9e765640deb67d3726f1a6b96f36896a485876393a49814acdc9d070e575c3fc19fd0a29c79ebca40e97e6696a196edfee",
+      "role": "doctor",
+      "phone": "+91 8451885118"
+    },
+    {
+      "id": "3b4d720e-c58f-4f30-b671-fe9b5da276fc",
+      "name": "Test Patient",
+      "email": "patient1@example.com",
+      "password": "e6f576d3fc60ddaaab8703fd1763cd3b:e4135b7b651a64abe97cb248222c81555e00bae225e0ce4aa0af486cb1066ea57b344152e030d57e0773aa15928a2a53b80e54178bd1d1ea750cb4f756b2b63b",
+      "role": "patient",
+      "phone": ""
+    },
+    {
+      "id": "806c2247-0462-4e83-9179-1772bfffb9fd",
+      "name": "Test Patient",
+      "email": "patient2@example.com",
+      "password": "51aa419e80d2f4ed3a6c73c5679e4994:66c434d9dde533f123f450dd4ec3cfc1d04965e789cb3621a7f8bc5b93709647f7f9f4e290c6cb4aec3fa81041bacccf250f7f2491213523f9f6d1fea9bfb70e",
+      "role": "patient",
+      "phone": ""
+    }
+  ],
+  "doctorProfile": {
+    "id": "d-001",
+    "userId": "u-doctor",
+    "name": "Dr. Arjun Mehra",
+    "specialization": "Prosthodontist & Implantologist",
+    "experience": "15+ years",
+    "qualifications": [
+      "BDS - Government Dental College, Mumbai",
+      "MDS - Nair Hospital Dental College",
+      "Laser Dentistry Certified - Germany"
+    ],
+    "clinic_details": {
+      "clinicName": "Mehra Advanced Dental Care",
+      "location": "204, Harmony Complex, Chembur East, Mumbai",
+      "contact": "+91 8451885118",
+      "email": "hello@drarjunmehra.com"
+    },
+    "availability": [
+      "Mon-Sat 10:00-20:00",
+      "Sun Emergency only"
+    ]
+  },
+  "appointments": [
+    {
+      "id": "aacf37c1-7138-4379-b292-139445151972",
+      "patient_id": "806c2247-0462-4e83-9179-1772bfffb9fd",
+      "doctor_id": "d-001",
+      "date": "2026-03-20",
+      "time": "11:00",
+      "type": "virtual",
+      "status": "pending"
+    }
+  ],
+  "consultations": [],
+  "reviews": [
+    {
+      "id": "r1",
+      "patient_id": "u-admin",
+      "doctor_id": "d-001",
+      "rating": 5,
+      "comment": "Excellent dental consultation and friendly staff.",
+      "createdAt": "2025-01-15T10:00:00.000Z"
+    }
+  ],
+  "images": [
+    {
+      "id": "img1",
+      "doctor_id": "d-001",
+      "image_url": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80",
+      "description": "Reception and waiting area"
+    }
+  ]
+}
